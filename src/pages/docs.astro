@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
+import { docs } from "../config/api.json";
+---
+
+<Layout title="Docs Developers">
+    <main>
+        <h2>DOCUMENTATION</h2>
+        <div>
+            {
+                docs.map((doc) => (
+                    <>
+                        <h3>{doc.name}</h3>
+                        <img src={doc.logo} alt={doc.name} width="30" />
+                    </>
+                ))
+            }
+        </div>
+    </main>
+</Layout>
+
+<style>
+    main {
+        margin: auto;
+        padding: 1.5rem;
+        max-width: 60ch;
+    }
+</style>

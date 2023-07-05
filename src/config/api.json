@@ -1,0 +1,229 @@
+{
+  "docs": [
+    {
+      "id": 1,
+      "name": "Html",
+      "logo": "/html.png",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "name": "Css",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "Bootstrap",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "TailwindCss",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "name": "Javascript",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "name": "Typescript",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "name": "Astro",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "name": "ReactJs",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "name": "Vite Js",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "name": "ReactRouterDom",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "name": "Redux",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 12,
+      "name": "NextJS",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 13,
+      "name": "NodeJS",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 14,
+      "name": "ExpressJS",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 15,
+      "name": "Sequelize",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 16,
+      "name": "TypeORM",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 17,
+      "name": "PostgreSQL",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 18,
+      "name": "MongoDb",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 19,
+      "name": "Mongoose",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 20,
+      "name": "Solidity",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 21,
+      "name": "SocketIO",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 22,
+      "name": "Docker",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 23,
+      "name": "ElectronJs",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 24,
+      "name": "Open AI",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 25,
+      "name": "PWA Builder",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 26,
+      "name": "GitHub",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 27,
+      "name": "AWS",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 28,
+      "name": "Firebase",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 29,
+      "name": "Cloudflare",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 30,
+      "name": "Vercel",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 31,
+      "name": "Cheerio",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 32,
+      "name": "hola",
+      "logo": "",
+      "link": ""
+    }
+  ],
+
+  "tools": [
+    {
+      "id": 1,
+      "name": "Github",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "name": "ChatGpt",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "Visual Studio Code",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "logo": "",
+      "link": ""
+    }
+  ]
+}
