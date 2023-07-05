@@ -2,189 +2,189 @@
   "docs": [
     {
       "id": 1,
-      "name": "Html",
-      "logo": "/html.png",
-      "link": ""
+      "name": "Html 5",
+      "logo": "/html.webp",
+      "link": "https://www.w3docs.com/learn-html.html"
     },
     {
       "id": 2,
-      "name": "Css",
-      "logo": "",
-      "link": ""
+      "name": "Css 3",
+      "logo": "/css.webp",
+      "link": "https://www.w3docs.com/learn-css.html"
     },
     {
       "id": 3,
       "name": "Bootstrap",
-      "logo": "",
-      "link": ""
+      "logo": "/bootstrap.webp",
+      "link": "https://getbootstrap.com/docs/versions/"
     },
     {
       "id": 4,
       "name": "TailwindCss",
-      "logo": "",
-      "link": ""
+      "logo": "/tailwindcss.webp",
+      "link": "https://tailwindcss.com/docs/installation"
     },
     {
       "id": 5,
       "name": "Javascript",
-      "logo": "",
-      "link": ""
+      "logo": "/javascript.webp",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/javascript"
     },
     {
       "id": 6,
       "name": "Typescript",
-      "logo": "",
-      "link": ""
+      "logo": "/typescript.webp",
+      "link": "https://www.typescriptlang.org/docs/"
     },
     {
       "id": 7,
       "name": "Astro",
-      "logo": "",
-      "link": ""
+      "logo": "/astro.webp",
+      "link": "https://docs.astro.build/en/getting-started/"
     },
     {
       "id": 8,
       "name": "ReactJs",
-      "logo": "",
-      "link": ""
+      "logo": "/react.webp",
+      "link": "https://react.dev/learn"
     },
     {
       "id": 9,
       "name": "Vite Js",
-      "logo": "",
-      "link": ""
+      "logo": "/vite.webp",
+      "link": "https://vitejs.dev/guide/"
     },
     {
       "id": 10,
       "name": "ReactRouterDom",
-      "logo": "",
-      "link": ""
+      "logo": "/react-router.webp",
+      "link": "https://reactrouter.com/en/main"
     },
     {
       "id": 11,
       "name": "Redux",
-      "logo": "",
-      "link": ""
+      "logo": "/redux.webp",
+      "link": "https://redux.js.org/introduction/getting-started"
     },
     {
       "id": 12,
       "name": "NextJS",
-      "logo": "",
-      "link": ""
+      "logo": "/nextjs.webp",
+      "link": "https://nextjs.org/docs"
     },
     {
       "id": 13,
       "name": "NodeJS",
-      "logo": "",
-      "link": ""
+      "logo": "/nodejs.webp",
+      "link": "https://nodejs.org/en/docs"
     },
     {
       "id": 14,
       "name": "ExpressJS",
-      "logo": "",
-      "link": ""
+      "logo": "/expressjs.webp",
+      "link": "https://expressjs.com/en/starter/installing.html"
     },
     {
       "id": 15,
       "name": "Sequelize",
-      "logo": "",
-      "link": ""
+      "logo": "/sequelize.webp",
+      "link": "https://sequelize.org/docs/v6/getting-started/"
     },
     {
       "id": 16,
       "name": "TypeORM",
-      "logo": "",
-      "link": ""
+      "logo": "/typeorm.webp",
+      "link": "https://typeorm.io/"
     },
     {
       "id": 17,
       "name": "PostgreSQL",
-      "logo": "",
-      "link": ""
+      "logo": "/postgresql.webp",
+      "link": "https://www.postgresql.org/docs/"
     },
     {
       "id": 18,
-      "name": "MongoDb",
-      "logo": "",
-      "link": ""
+      "name": "MongoDB",
+      "logo": "/mongo.webp",
+      "link": "https://www.mongodb.com/docs/"
     },
     {
       "id": 19,
       "name": "Mongoose",
-      "logo": "",
-      "link": ""
+      "logo": "/mongoose.webp",
+      "link": "https://mongoosejs.com/docs/guide.html"
     },
     {
       "id": 20,
       "name": "Solidity",
-      "logo": "",
-      "link": ""
+      "logo": "/solidity.webp",
+      "link": "https://docs.soliditylang.org/en/latest/"
     },
     {
       "id": 21,
       "name": "SocketIO",
-      "logo": "",
-      "link": ""
+      "logo": "/socket.webp",
+      "link": "https://socket.io/docs/v4/"
     },
     {
       "id": 22,
       "name": "Docker",
-      "logo": "",
-      "link": ""
+      "logo": "/docker.webp",
+      "link": "https://docs.docker.com/"
     },
     {
       "id": 23,
       "name": "ElectronJs",
-      "logo": "",
-      "link": ""
+      "logo": "/electron.webp",
+      "link": "https://www.electronjs.org/docs/latest"
     },
     {
       "id": 24,
       "name": "Open AI",
-      "logo": "",
-      "link": ""
+      "logo": "/openai.webp",
+      "link": "https://platform.openai.com/docs/introduction"
     },
     {
       "id": 25,
       "name": "PWA Builder",
       "logo": "",
-      "link": ""
+      "link": "https://docs.pwabuilder.com/#/"
     },
     {
       "id": 26,
       "name": "GitHub",
       "logo": "",
-      "link": ""
+      "link": "https://docs.github.com/es"
     },
     {
       "id": 27,
       "name": "AWS",
       "logo": "",
-      "link": ""
+      "link": "https://docs.aws.amazon.com/index.html"
     },
     {
       "id": 28,
       "name": "Firebase",
       "logo": "",
-      "link": ""
+      "link": "https://firebase.google.com/docs?hl=es-419"
     },
     {
       "id": 29,
       "name": "Cloudflare",
       "logo": "",
-      "link": ""
+      "link": "https://developers.cloudflare.com/"
     },
     {
       "id": 30,
       "name": "Vercel",
       "logo": "",
-      "link": ""
+      "link": "https://vercel.com/docs"
     },
     {
       "id": 31,
       "name": "Cheerio",
       "logo": "",
-      "link": ""
+      "link": "https://cheerio.js.org/docs/intro"
     },
     {
       "id": 32,
