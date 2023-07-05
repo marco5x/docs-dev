@@ -7,7 +7,9 @@ import Card from "../components/Card.astro";
 	<main>
 		<div>
 			<img src="/logo.webp" alt="<📝>" width="90" />
-			<h1>Welcome to <span class="text-gradient">DocsDev&Tools</span></h1>
+			<h1 class="welcome">
+				Welcome to <span class="text-gradient">DocsDev&Tools</span>
+			</h1>
 		</div>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -41,6 +43,10 @@ import Card from "../components/Card.astro";
 		font-weight: 800;
 		margin: 0;
 	}
+	.welcome {
+		color: azure;
+	}
+
 	.text-gradient {
 		display: flex;
 		background-image: var(--accent-gradient);

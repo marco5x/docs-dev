@@ -1,29 +1,38 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Sidebar from "../components/Sidebar.astro";
+import { Docs } from "../components/Docs";
 import { docs } from "../config/api.json";
 ---
 
 <Layout title="Docs Developers">
     <main>
-        <h2>DOCUMENTATION</h2>
-        {
-            docs.map((doc) => (
-                <Sidebar
-                    id={doc.id}
-                    link={doc.link}
-                    name={doc.name}
-                    logo={doc.logo}
-                />
-            ))
-        }
+        <div class="docss">
+            <div class="docu">
+                <h2>DOCUMENTATION</h2>
+                {
+                    docs.map((doc) => (
+                        <Sidebar
+                            id={doc.id}
+                            link={doc.link}
+                            name={doc.name}
+                            logo={doc.logo}
+                        />
+                    ))
+                }
+            </div>
+            <Docs client:load />
+        </div>
     </main>
 </Layout>
 
 <style>
-    main {
-        margin: auto;
-        padding: 1.5rem;
-        max-width: 60ch;
+    .docu {
+        color: white;
+        text-align: center;
+    }
+    .docss {
+        margin: 0;
+        display: flex;
     }
 </style>

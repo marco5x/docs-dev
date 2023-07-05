@@ -12,7 +12,6 @@ npm create astro@latest -- --template basics
 
 ![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
 
-
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
@@ -20,14 +19,19 @@ Inside of your Astro project, you'll see the following folders and files:
 ```
 /
 ├── public/
-│   └── favicon.svg
+│   └── logo.webp
+│   └── robots.txt
 ├── src/
 │   ├── components/
 │   │   └── Card.astro
+|   │   └── Docs.tsx
+|   │   └── Sidebar.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
 │       └── index.astro
+|       └── docs.astro
+|       └── tools.astro
 └── package.json
 ```
 

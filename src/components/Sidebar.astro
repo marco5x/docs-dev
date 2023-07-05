@@ -9,10 +9,10 @@ export interface Props {
 const { id, name, logo, link } = Astro.props;
 ---
 
-<div class="link-cards">
-    <a href={link}>
+<div id="docus" class="link-cards">
+    <a id="links" href={link}>
         <h3>{name}</h3>
-        <img src={logo} alt={name} width="45" />
+        <img src={logo} alt={name} width="45" height="auto" />
     </a>
 </div>
 
@@ -21,7 +21,7 @@ const { id, name, logo, link } = Astro.props;
         list-style: none;
         width: 15rem;
         display: flex;
-        padding: 0.25rem;
+        padding: 0.18rem;
         background-color: #333;
         background-size: 300%;
         border-radius: 0.6rem;
