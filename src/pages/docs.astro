@@ -7,16 +7,16 @@ import { docs } from "../config/api.json";
 <Layout title="Docs Developers">
     <main>
         <h2>DOCUMENTATION</h2>
-        <div>
-            {
-                docs.map((doc) => (
-                    <>
-                        <h3>{doc.name}</h3>
-                        <img src={doc.logo} alt={doc.name} width="45" />
-                    </>
-                ))
-            }
-        </div>
+        {
+            docs.map((doc) => (
+                <Sidebar
+                    id={doc.id}
+                    link={doc.link}
+                    name={doc.name}
+                    logo={doc.logo}
+                />
+            ))
+        }
     </main>
 </Layout>
 

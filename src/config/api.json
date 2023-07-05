@@ -147,43 +147,43 @@
     {
       "id": 25,
       "name": "PWA Builder",
-      "logo": "",
+      "logo": "/pwa.webp",
       "link": "https://docs.pwabuilder.com/#/"
     },
     {
       "id": 26,
       "name": "GitHub",
-      "logo": "",
+      "logo": "/github.webp",
       "link": "https://docs.github.com/es"
     },
     {
       "id": 27,
       "name": "AWS",
-      "logo": "",
+      "logo": "/aws.webp",
       "link": "https://docs.aws.amazon.com/index.html"
     },
     {
       "id": 28,
       "name": "Firebase",
-      "logo": "",
+      "logo": "/firebase.webp",
       "link": "https://firebase.google.com/docs?hl=es-419"
     },
     {
       "id": 29,
       "name": "Cloudflare",
-      "logo": "",
+      "logo": "/cloudflare.webp",
       "link": "https://developers.cloudflare.com/"
     },
     {
       "id": 30,
       "name": "Vercel",
-      "logo": "",
+      "logo": "/vercel.webp",
       "link": "https://vercel.com/docs"
     },
     {
       "id": 31,
       "name": "Cheerio",
-      "logo": "",
+      "logo": "/cheerio.webp",
       "link": "https://cheerio.js.org/docs/intro"
     },
     {
@@ -198,19 +198,19 @@
     {
       "id": 1,
       "name": "Github",
-      "logo": "",
+      "logo": "/github.webp",
       "link": ""
     },
     {
       "id": 2,
       "name": "ChatGpt",
-      "logo": "",
+      "logo": "/ChatGPT.webp",
       "link": ""
     },
     {
       "id": 3,
       "name": "Visual Studio Code",
-      "logo": "",
+      "logo": "/visual.webp",
       "link": ""
     },
     {
