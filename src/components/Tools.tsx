@@ -1,19 +1,19 @@
 import { useState } from "react";
-import { docs } from "../config/api.json";
+import { tools } from "../config/api.json";
 
-export const Docs = () => {
-    const [link, setLink] = useState("https://www.w3docs.com/learn-html.html");
+export const Tools = () => {
+    const [link, setLink] = useState("https://github.com/");
 
     return (
         <div style={{ display: "flex" }}>
             <div>
-                <h2>DOCUMENTATION</h2>
+                <h2>TOOLS DEV</h2>
                 {
-                    docs.map((doc) => (
+                    tools.map((tool) => (
                         <div>
-                            <button onClick={() => setLink(doc.link) } >
-                                <h3>{doc.name}</h3>
-                                <img src={doc.logo} alt={doc.name} width="45" height="auto" />
+                            <button onClick={() => setLink(tool.link) } >
+                                <h3>{tool.name}</h3>
+                                <img src={tool.logo} alt={tool.name} width="45" height="auto" />
                            </button>
                         </div>
                     ))
@@ -22,7 +22,7 @@ export const Docs = () => {
             <iframe
                 width="1920"
                 src={link}
-                title={"documentation for developers"}
+                title={"Tools web"}
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; web-share"
             >
             </iframe>
