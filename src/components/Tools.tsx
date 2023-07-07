@@ -2,7 +2,7 @@ import { useState } from "react";
 import { tools } from "../config/api.json";
 
 export const Tools = () => {
-    const [link, setLink] = useState("https://github.com/");
+    const [link, setLink] = useState("https://web-toolbox.dev/en");
     const [show, setShow] = useState(false);
 
     return (
@@ -10,7 +10,7 @@ export const Tools = () => {
             <div>
                 <button onClick={() => setShow(!show)} style={{position:"absolute"}}>TOOLS</button>
                 {
-                    tools.map((tool) => (
+                    show && tools.map((tool) => (
                         <div key={tool.id} style={{ width:"12rem", backgroundColor:"black"}}>
                             <button onClick={() => setLink(tool.link) } >
                                 <h3>{tool.name}</h3>
@@ -22,6 +22,7 @@ export const Tools = () => {
             </div>
             <iframe
                 width="1920"
+                height={789}
                 src={link}
                 title={"Tools web"}
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; web-share"

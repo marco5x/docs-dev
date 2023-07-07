@@ -3,13 +3,13 @@ import { docs } from "../config/api.json";
 import style from "./Docs.module.css"
 
 export const Docs = () => {
-    const [link, setLink] = useState("https://www.w3docs.com/learn-html.html");
+    const [link, setLink] = useState("https://andreasbm.github.io/web-skills/?compact");
     const [show, setShow] = useState(false);
     
     return (
         <div className={style.container}>
-            <div >
-                <button className={style.button} onClick={() => setShow(!show)}>DOCS</button>
+            <div>
+                <button onClick={() => setShow(!show)} className={style.button}>DOCS</button>
                 {
                     show && docs.map((doc) => (
                         <div key={doc.id} className={style.card}>
