@@ -1,0 +1,19 @@
+---
+export interface Props {
+    name: string;
+    link: string;
+}
+
+const { name, link } = Astro.props;
+---
+
+<iframe class="body" src={link || "0"} title={name || "doc"}> </iframe>
+
+<style>
+    .body {
+        width: 99.8%;
+        line-height: inherit;
+        height: 99.1vh;
+        background-color: black;
+    }
+</style>
