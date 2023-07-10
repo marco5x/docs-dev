@@ -5,39 +5,60 @@ import Card from "../components/Card.astro";
 
 <Layout title="Welcome to Docs-tools-for-Dev">
 	<main>
-		<div class="header">
-			<img src="/logo.webp" alt="<📝>" width="90" />
-			<h1 class="welcome">
-				WELCOME TO <span class="text-gradient">Docs&ToolsDev</span>
-			</h1>
+		<div class="head">
+			<div class="header">
+				<img src="/logo.webp" alt="<📝>" width="90" />
+				<h1 class="welcome">
+					WELCOME TO <span class="text-gradient">Docs&ToolsDev</span>
+				</h1>
+			</div>
+			<ul role="list" class="link-card-grid">
+				<Card
+					href="/docs/0"
+					title="Documentation"
+					body="Learn with documentations for developers."
+				/>
+				<Card
+					href="tools/0"
+					title="Tools"
+					body="Explore tools for developers."
+				/>
+			</ul>
 		</div>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="/docs/0"
-				title="Documentation"
-				body="Learn with documentations for developers."
-			/>
-			<Card
-				href="tools/0"
-				title="Tools"
-				body="Explore tools for developers."
-			/>
-		</ul>
-		<hr class="line" />
-		<p class="code">
-			Codeado con 💙 por &nbsp
-			<a href="https://github.com/marco5x"> @Marcos</a>, &nbsp con Astro
-			&nbsp
-			<img src="/logos/astro.webp" alt="astro" width="25" />
-		</p>
+		<footer class="footer">
+			<hr />
+			<p class="code">
+				Codeado con 💙 por &nbsp
+				<a href="https://github.com/marco5x"> @Marcos</a>, &nbsp con
+				Astro &nbsp
+				<img
+					src="/logos/astro.webp"
+					alt="astro"
+					width="25"
+					height="25"
+				/>
+			</p>
+		</footer>
 	</main>
 </Layout>
 
 <style>
 	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+		background-size: cover;
+		background-color: #656464;
+		width: 100vw;
+		height: 100vh;
+	}
+	.head {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		justify-items: center;
+		align-items: center;
 	}
 	.header {
 		gap: 3rem;
@@ -63,14 +84,16 @@ import Card from "../components/Card.astro";
 	}
 
 	.link-card-grid {
-		display: grid;
+		display: flex;
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 		gap: 1rem;
 		padding: 0;
 	}
-	.line {
-		margin-top: 15rem;
+	.footer {
+		padding: 0 1rem;
+		margin-top: 26.1rem;
 	}
+
 	.code {
 		color: aliceblue;
 		display: flex;
@@ -79,5 +102,11 @@ import Card from "../components/Card.astro";
 	.code a {
 		cursor: pointer;
 		text-decoration: none;
+	}
+
+	@media screen and (max-width: 640px) {
+		.link-card-grid {
+			flex-direction: column;
+		}
 	}
 </style>

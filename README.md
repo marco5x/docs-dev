@@ -1,7 +1,7 @@
-# Astro Starter Kit: Basics
+# Astro Starter Kit
 
 ```
-npm create astro@latest -- --template basics
+npm create astro@latest --
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
@@ -10,7 +10,7 @@ npm create astro@latest -- --template basics
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![basics](😁)
+![proyect](https://docs.astro.build/open-graph/en/core-concepts/project-structure.png)
 
 ## 🚀 Project Structure
 
@@ -19,19 +19,26 @@ Inside of your Astro project, you'll see the following folders and files:
 ```
 /
 ├── public/
+│   ├── logos/*
 │   └── logo.webp
 │   └── robots.txt
 ├── src/
 │   ├── components/
+│   │   └── ButtonHome.astro
 │   │   └── Card.astro
-|   │   └── Docs.tsx
+|   │   └── Pages.astro
 |   │   └── Sidebar.astro
+│   ├── config/
+│   │   └── api.json
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
+│       └── docs/
+│           └── [docs].astro
+│       └── tools/
+│           └── [tools].astro
 │       └── index.astro
-|       └── docs.astro
-|       └── tools.astro
+|       └── 404.astro
 └── package.json
 ```
 

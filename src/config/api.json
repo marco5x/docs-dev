@@ -34,7 +34,7 @@
       "id": "5",
       "name": "Javascript",
       "logo": "/logos/javascript.webp",
-      "link": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+      "link": "https://www.w3docs.com/learn-javascript.html"
     },
     {
       "id": "6",
@@ -160,7 +160,7 @@
       "id": "26",
       "name": "Git",
       "logo": "/logos/git.webp",
-      "link": "https://git-scm.com/doc"
+      "link": "https://ndpsoftware.com/git-cheatsheet.html#loc=stash;"
     },
     {
       "id": "27",
