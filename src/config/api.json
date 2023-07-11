@@ -188,9 +188,9 @@
     },
     {
       "id": "31",
-      "name": "Cheerio",
-      "logo": "/logos/cheerio.webp",
-      "link": "https://cheerio.js.org/docs/intro"
+      "name": "Mochajs",
+      "logo": "/logos/mocha.webp",
+      "link": "https://mochajs.org/#installation"
     },
     {
       "id": "32",
@@ -212,12 +212,18 @@
     },
     {
       "id": "35",
+      "name": "Vitest",
+      "logo": "/logos/vitest.webp",
+      "link": "https://vitest.dev/guide/"
+    },
+    {
+      "id": "36",
       "name": "JSDocs",
       "logo": "/logos/jsdoc.webp",
       "link": "https://jsdoc.app/index.html"
     },
     {
-      "id": "36",
+      "id": "37",
       "name": "Typedoc",
       "logo": "/logos/typedoc.webp",
       "link": "https://typedoc.org/"
@@ -239,7 +245,7 @@
     },
     {
       "id": "2",
-      "name": "developertools",
+      "name": "DeveloperTools",
       "logo": "/logos/dev.webp",
       "link": "https://www.developertools.tech/es"
     },
@@ -257,117 +263,179 @@
     },
     {
       "id": "5",
+      "name": "Cheerio",
+      "logo": "/logos/cheerio.webp",
+      "link": "https://cheerio.js.org/docs/intro"
+    },
+    {
+      "id": "6",
+      "name": "Formik",
+      "logo": "/logos/formik.webp",
+      "link": "https://formik.org/docs/tutorial"
+    },
+    {
+      "id": "7",
+      "name": "ReactHookForm",
+      "logo": "/logos/rhform.webp",
+      "link": "https://react-hook-form.com/"
+    },
+    {
+      "id": "8",
       "name": "V-Studio-Code",
       "logo": "/logos/visual.webp",
       "link": "https://vscode.dev/"
     },
     {
-      "id": "6",
+      "id": "9",
       "name": "ChatGpt",
       "logo": "/logos/ChatGPT.webp",
       "link": "https://openai.com/chatgpt"
     },
     {
-      "id": "7",
+      "id": "10",
       "name": "Codefy",
       "logo": "/logos/codefy.webp",
       "link": "https://www.codefy.ai/"
     },
     {
-      "id": "8",
+      "id": "11",
       "name": "useLLM",
       "logo": "/logos/llm.webp",
       "link": "https://usellm.org/"
     },
     {
-      "id": "9",
+      "id": "12",
       "name": "VercelAI",
       "logo": "/logos/vercel.webp",
       "link": "https://sdk.vercel.ai/"
     },
     {
-      "id": "10",
+      "id": "13",
       "name": "Flowbite",
       "logo": "/logos/flowbite.webp",
       "link": "https://flowbite.com/docs/getting-started/quickstart/"
     },
     {
-      "id": "11",
+      "id": "14",
       "name": "HyperUI",
       "logo": "/logos/ui.webp",
       "link": "https://www.hyperui.dev/"
     },
     {
-      "id": "12",
+      "id": "15",
       "name": "Tailwind-Kit",
       "logo": "/logos/rocket.webp",
       "link": "https://www.tailwind-kit.com/started"
     },
     {
-      "id": "13",
+      "id": "16",
       "name": "FramerMotion",
       "logo": "/logos/framer.webp",
       "link": "https://www.framer.com/motion/"
     },
     {
-      "id": "14",
+      "id": "17",
       "name": "Squoosh",
       "logo": "/logos/squoosh.webp",
       "link": "https://squoosh.app/"
     },
     {
-      "id": "15",
+      "id": "18",
       "name": "Removebg",
       "logo": "/logos/remove.webp",
       "link": "https://www.remove.bg/es"
     },
     {
-      "id": "16",
+      "id": "19",
       "name": "Aspose",
       "logo": "/logos/aspose.webp",
       "link": "https://www.aspose.app/"
     },
     {
-      "id": "17",
+      "id": "20",
       "name": "Figma",
       "logo": "/logos/figma.webp",
       "link": "https://figma.app/"
     },
     {
-      "id": "18",
+      "id": "21",
       "name": "Drawio",
       "logo": "/logos/drawio.webp",
       "link": "https://app.diagrams.net/"
     },
     {
-      "id": "19",
+      "id": "22",
       "name": "FrontChecklist",
       "logo": "/logos/front.webp",
       "link": "https://frontendchecklist.io/"
     },
     {
-      "id": "20",
+      "id": "23",
       "name": "PageSpeed",
       "logo": "/logos/pagespeed.webp",
       "link": "https://pagespeed.web.dev/"
     },
     {
-      "id": "21",
+      "id": "24",
       "name": "Carbon",
       "logo": "/logos/carbon.webp",
       "link": "https://carbon.now.sh/"
     },
     {
-      "id": "22",
+      "id": "25",
       "name": "designResources",
       "logo": "/logos/github.webp",
       "link": "https://github.com/bradtraversy/design-resources-for-developers/blob/master/readme.md#table-of-contents"
     },
     {
-      "id": "23",
+      "id": "26",
       "name": "AwesomeDesign",
       "logo": "/logos/github.webp",
       "link": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
+    }
+  ],
+  "others": [
+    {
+      "id": "0",
+      "name": "DeveloperRoadmaps",
+      "logo": "/logo.webp",
+      "link": "https://roadmap.sh/"
+    },
+    {
+      "id": "1",
+      "name": "LearnGitBranching",
+      "logo": "/logos/git.webp",
+      "link": "https://learngitbranching.js.org/?locale=es_AR"
+    },
+    {
+      "id": "2",
+      "name": "Recursos 🌈 CSS súper útiles",
+      "logo": "/logos/css.webp",
+      "link": "https://dev.to/lissy93/super-useful-css-resources-1ba3#animations"
+    },
+    {
+      "id": "3",
+      "name": "API web de JavaScript",
+      "logo": "/logos/javascrips.webp",
+      "link": "https://dev.to/ruppysuppy/7-javascript-web-apis-to-build-futuristic-websites-you-didnt-know-38bc"
+    },
+    {
+      "id": "4",
+      "name": "Css-houdini",
+      "logo": "/logos/css.webp",
+      "link": "https://css-houdini.rocks/"
+    },
+    {
+      "id": "4",
+      "name": "Librerias react",
+      "logo": "/logos/react.webp",
+      "link": "https://dev.to/madza/16-libraries-you-should-know-as-a-react-developer-4f1k/comments"
+    },
+    {
+      "id": "5",
+      "name": "PeopleDataLabsAPI",
+      "logo": "/logo.webp",
+      "link": "https://www.peopledatalabs.com/"
     }
   ]
 }
