@@ -1,5 +1,5 @@
 {
-  "name": "docsdev",
+  "name": "docstools",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,7 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.8.0",
+    "@astrojs/cloudflare": "^6.6.0",
+    "astro": "^2.8.1",
     "astro-robots-txt": "^0.5.0"
   }
 }
