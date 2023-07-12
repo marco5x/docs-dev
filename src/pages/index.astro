@@ -9,7 +9,7 @@ import Card from "../components/Card.astro";
 			<div class="header">
 				<img src="/logo.webp" alt="<📝>" width="90" />
 				<h1 class="welcome">
-					WELCOME TO <span class="text-gradient">Docs&ToolsDev</span>
+					WELCOME TO <span class="text-gradient">Docs & Tools Dev</span>
 				</h1>
 			</div>
 			<ul role="list" class="link-card-grid">
@@ -26,10 +26,9 @@ import Card from "../components/Card.astro";
 			</ul>
 		</div>
 		<footer class="footer">
-			<hr />
 			<p class="code">
 				Codeado con 💙 por &nbsp
-				<a href="https://github.com/marco5x"> @Marcos</a>, &nbsp con
+				<a href="https://github.com/marco5x" target="_blank"> @Marcos</a>, &nbsp con
 				Astro &nbsp
 				<img
 					src="/logos/astro.webp"
@@ -48,10 +47,10 @@ import Card from "../components/Card.astro";
 		flex-direction: column;
 		margin: 0;
 		padding: 0;
-		background-size: cover;
 		background-color: #656464;
-		width: 100vw;
-		height: 100vh;
+		background-size: cover;
+		width:100%;
+		height: 100vh;		
 	}
 	.head {
 		display: flex;
@@ -59,6 +58,7 @@ import Card from "../components/Card.astro";
 		justify-content: center;
 		justify-items: center;
 		align-items: center;
+		padding-top: 6rem;
 	}
 	.header {
 		gap: 3rem;
@@ -79,7 +79,7 @@ import Card from "../components/Card.astro";
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		background-size: 400%;
+		background-size: 300%;
 		background-position: 0%;
 	}
 
@@ -90,8 +90,8 @@ import Card from "../components/Card.astro";
 		padding: 0;
 	}
 	.footer {
-		padding: 0 1rem;
-		margin-top: 26.1rem;
+		background-color: #0f8abc;
+		margin-top: 20.5rem;
 	}
 
 	.code {
@@ -107,6 +107,20 @@ import Card from "../components/Card.astro";
 	@media screen and (max-width: 640px) {
 		.link-card-grid {
 			flex-direction: column;
+			
+		}
+		.head {
+			padding-top: 0;
+		}
+		.header{
+			flex-direction: column;
+			gap: 0.7rem;
+		}
+		.welcome {
+			text-align: center;
+		}
+		.footer {
+			margin-top: 0;
 		}
 	}
 </style>
