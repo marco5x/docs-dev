@@ -10,7 +10,7 @@ const docId = Astro.params.docs;
 let docu = docs.find((doc) => doc.id === docId);
 ---
 
-<Layout title="Docs Developers">
+<Layout title="Docs Developers" description="Docs for developers web">
     <main>
         <Button />
         <div>
@@ -44,7 +44,7 @@ let docu = docs.find((doc) => doc.id === docId);
         display: block;
         flex-direction: column;
         position: fixed;
-        height: 93.7%;
+        height: 93.1vh;
         background-image: linear-gradient(0deg, #18a7ff, #000000);
         overflow-y: scroll;
     }
@@ -64,7 +64,7 @@ let docu = docs.find((doc) => doc.id === docId);
 
     .side-menu {
         width: 16.3rem;
-        height: 99%;
+        height: 100vh;
         padding: 50px 0;
         box-sizing: border-box;
         background-image: linear-gradient(0deg, #18a7ff, #000000);

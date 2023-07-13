@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 ---
 
-<Layout title="Welcome to Docs-tools-for-Dev">
+<Layout title="Docs tools web Dev" description="Docs and tools web for developers">
 	<main>
 		<div class="head">
 			<div class="header">
@@ -47,7 +47,7 @@ import Card from "../components/Card.astro";
 		flex-direction: column;
 		margin: 0;
 		padding: 0;
-		background-color: #656464;
+		background-color: #b8c5c6;
 		background-size: cover;
 		width:100%;
 		height: 100vh;		
@@ -90,8 +90,10 @@ import Card from "../components/Card.astro";
 		padding: 0;
 	}
 	.footer {
-		background-color: #0f8abc;
-		margin-top: 20.5rem;
+		width: 100%;
+		position: fixed;
+		bottom: 1rem;
+		background-color: #0f8abc;		
 	}
 
 	.code {
@@ -120,7 +122,7 @@ import Card from "../components/Card.astro";
 			text-align: center;
 		}
 		.footer {
-			margin-top: 0;
+			bottom: 0;
 		}
 	}
 </style>

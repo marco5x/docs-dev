@@ -409,30 +409,48 @@
     },
     {
       "id": "2",
+      "name": "Quicktype",
+      "logo": "/logos/dev.webp",
+      "link": "https://app.quicktype.io/"
+    },
+    {
+      "id": "3",
       "name": "Recursos 🌈 CSS súper útiles",
       "logo": "/logos/css.webp",
       "link": "https://dev.to/lissy93/super-useful-css-resources-1ba3#animations"
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "API web de JavaScript",
       "logo": "/logos/javascrips.webp",
       "link": "https://dev.to/ruppysuppy/7-javascript-web-apis-to-build-futuristic-websites-you-didnt-know-38bc"
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "Css-houdini",
       "logo": "/logos/css.webp",
       "link": "https://css-houdini.rocks/"
     },
     {
-      "id": "4",
+      "id": "6",
+      "name": "Animatopy",
+      "logo": "/logos/css.webp",
+      "link": "https://sarthology.github.io/Animatopy/"
+    },
+    {
+      "id": "7",
+      "name": "Animista",
+      "logo": "/logos/css.webp",
+      "link": "https://animista.net/play/"
+    },
+    {
+      "id": "8",
       "name": "Librerias react",
       "logo": "/logos/react.webp",
       "link": "https://dev.to/madza/16-libraries-you-should-know-as-a-react-developer-4f1k/comments"
     },
     {
-      "id": "5",
+      "id": "9",
       "name": "PeopleDataLabsAPI",
       "logo": "/logo.webp",
       "link": "https://www.peopledatalabs.com/"
