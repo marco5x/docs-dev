@@ -7,7 +7,7 @@ export interface Props {
 const { name, link } = Astro.props;
 ---
 
-<iframe class="body" src={link || "0"} title={name || "doc"}> </iframe>
+<iframe class="body" src={link || "0"} title={name}> </iframe>
 
 <style>
     .body {

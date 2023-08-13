@@ -56,21 +56,21 @@
     },
     {
       "id": "9",
-      "name": "ViteJs",
-      "logo": "/logos/vite.webp",
-      "link": "https://vitejs.dev/guide/"
-    },
-    {
-      "id": "10",
       "name": "ReactRouterDom",
       "logo": "/logos/react-router.webp",
       "link": "https://reactrouter.com/en/main"
     },
     {
+      "id": "10",
+      "name": "Tanstack",
+      "logo": "/logos/tanstack.webp",
+      "link": "https://tanstack.com/query/v3/"
+    },
+    {
       "id": "11",
       "name": "Redux",
       "logo": "/logos/redux.webp",
-      "link": "https://redux.js.org/introduction/getting-started"
+      "link": "https://redux-toolkit.js.org/introduction/getting-started"
     },
     {
       "id": "12",
@@ -86,150 +86,187 @@
     },
     {
       "id": "14",
+      "name": "Bun",
+      "logo": "/logos/bun.webp",
+      "link": "https://bun.sh/"
+    },
+    {
+      "id": "15",
       "name": "ExpressJS",
       "logo": "/logos/expressjs.webp",
       "link": "https://expressjs.com/en/starter/installing.html"
     },
     {
-      "id": "15",
+      "id": "16",
       "name": "Sequelize",
       "logo": "/logos/sequelize.webp",
       "link": "https://sequelize.org/docs/v6/getting-started/"
     },
     {
-      "id": "16",
+      "id": "17",
       "name": "TypeORM",
       "logo": "/logos/typeorm.webp",
       "link": "https://typeorm.io/"
     },
     {
-      "id": "17",
+      "id": "18",
+      "name": "Prisma",
+      "logo": "/logos/prisma.webp",
+      "link": "https://www.prisma.io/"
+    },
+    {
+      "id": "19",
+      "name": "Graphql",
+      "logo": "/logos/graphql.webp",
+      "link": "https://graphql.org/"
+    },
+    {
+      "id": "20",
       "name": "PostgreSQL",
       "logo": "/logos/postgresql.webp",
       "link": "https://www.postgresql.org/docs/"
     },
     {
-      "id": "18",
+      "id": "21",
+      "name": "Redis",
+      "logo": "/logos/redis.webp",
+      "link": "https://redis.io/"
+    },
+    {
+      "id": "22",
       "name": "Strapi",
       "logo": "/logos/strapi.webp",
       "link": "https://docs.strapi.io/"
     },
     {
-      "id": "19",
+      "id": "23",
       "name": "MongoDB",
       "logo": "/logos/mongo.webp",
       "link": "https://www.mongodb.com/docs/"
     },
     {
-      "id": "20",
+      "id": "24",
       "name": "Mongoose",
       "logo": "/logos/mongoose.webp",
       "link": "https://mongoosejs.com/docs/guide.html"
     },
     {
-      "id": "21",
+      "id": "25",
       "name": "Solidity",
       "logo": "/logos/solidity.webp",
       "link": "https://docs.soliditylang.org/en/latest/"
     },
     {
-      "id": "22",
+      "id": "26",
       "name": "SocketIO",
       "logo": "/logos/socket.webp",
       "link": "https://socket.io/docs/v4/"
     },
     {
-      "id": "23",
+      "id": "27",
       "name": "Docker",
       "logo": "/logos/docker.webp",
       "link": "https://docs.docker.com/"
     },
     {
-      "id": "24",
+      "id": "28",
       "name": "ElectronJs",
       "logo": "/logos/electron.webp",
       "link": "https://www.electronjs.org/docs/latest"
     },
     {
-      "id": "25",
+      "id": "29",
       "name": "OpenAI",
       "logo": "/logos/openai.webp",
       "link": "https://platform.openai.com/docs/introduction"
     },
     {
-      "id": "26",
+      "id": "30",
       "name": "PWA-Builder",
       "logo": "/logos/pwa.webp",
       "link": "https://docs.pwabuilder.com/#/"
     },
     {
-      "id": "27",
+      "id": "31",
       "name": "Git",
       "logo": "/logos/git.webp",
       "link": "https://ndpsoftware.com/git-cheatsheet.html#loc=stash;"
     },
     {
-      "id": "28",
+      "id": "32",
       "name": "AWS",
       "logo": "/logos/aws.webp",
       "link": "https://docs.aws.amazon.com/index.html"
     },
     {
-      "id": "29",
+      "id": "33",
       "name": "Firebase",
       "logo": "/logos/firebase.webp",
       "link": "https://firebase.google.com/docs?hl=es-419"
     },
     {
-      "id": "30",
+      "id": "34",
       "name": "Cloudflare",
       "logo": "/logos/cloudflare.webp",
       "link": "https://developers.cloudflare.com/"
     },
     {
-      "id": "31",
+      "id": "35",
+      "name": "Cloudinary",
+      "logo": "/logos/cloudinary.webp",
+      "link": "https://cloudinary.com/"
+    },
+
+    {
+      "id": "36",
       "name": "Vercel",
       "logo": "/logos/vercel.webp",
       "link": "https://vercel.com/docs"
     },
     {
-      "id": "32",
+      "id": "37",
+      "name": "Standard",
+      "logo": "/logos/standard.webp",
+      "link": "https://standardjs.com/"
+    },
+    {
+      "id": "38",
       "name": "Mochajs",
       "logo": "/logos/mocha.webp",
       "link": "https://mochajs.org/#installation"
     },
     {
-      "id": "33",
+      "id": "39",
       "name": "JestJs",
       "logo": "/logos/jest.webp",
       "link": "https://jestjs.io/docs/getting-started"
     },
     {
-      "id": "34",
+      "id": "40",
       "name": "Jasmine",
       "logo": "/logos/jasmine.webp",
       "link": "https://jasmine.github.io/pages/docs_home.html"
     },
     {
-      "id": "35",
+      "id": "41",
       "name": "Cypress",
       "logo": "/logos/cypress.webp",
       "link": "https://docs.cypress.io/guides/overview/why-cypress"
     },
     {
-      "id": "36",
+      "id": "42",
       "name": "Vitest",
       "logo": "/logos/vitest.webp",
       "link": "https://vitest.dev/guide/"
     },
     {
-      "id": "37",
+      "id": "43",
       "name": "JSDocs",
       "logo": "/logos/jsdoc.webp",
       "link": "https://jsdoc.app/index.html"
     },
     {
-      "id": "38",
+      "id": "44",
       "name": "Typedoc",
       "logo": "/logos/typedoc.webp",
       "link": "https://typedoc.org/"
@@ -269,210 +306,301 @@
     },
     {
       "id": "5",
-      "name": "Heroicons",
-      "logo": "/logos/heroicons.webp",
-      "link": "https://heroicons.com/"
+      "name": "Npm",
+      "logo": "/logos/npm.webp",
+      "link": "https://easynpm.netlify.app/"
     },
     {
       "id": "6",
-      "name": "Shadcn",
-      "logo": "/logos/shadcn.webp",
-      "link": "https://ui.shadcn.com/"
+      "name": "Bundlephobia",
+      "logo": "/logos/bundle.webp",
+      "link": "https://bundlephobia.com/"
     },
     {
       "id": "7",
+      "name": "CanIuse",
+      "logo": "/logos/caniuse.webp",
+      "link": "https://caniuse.com/"
+    },
+    {
+      "id": "8",
+      "name": "ViteJs",
+      "logo": "/logos/vite.webp",
+      "link": "https://vitejs.dev/guide/"
+    },
+    {
+      "id": "9",
       "name": "Cheerio",
       "logo": "/logos/cheerio.webp",
       "link": "https://cheerio.js.org/docs/intro"
     },
     {
-      "id": "8",
+      "id": "10",
+      "name": "Crawlee",
+      "logo": "/logos/crawlee.webp",
+      "link": "https://crawlee.dev/"
+    },
+    {
+      "id": "11",
+      "name": "Zod",
+      "logo": "/logos/zod.webp",
+      "link": "https://zod.dev/"
+    },
+    {
+      "id": "12",
       "name": "Formik",
       "logo": "/logos/formik.webp",
       "link": "https://formik.org/docs/tutorial"
     },
     {
-      "id": "9",
+      "id": "13",
       "name": "ReactHookForm",
       "logo": "/logos/rhform.webp",
       "link": "https://react-hook-form.com/"
     },
     {
-      "id": "10",
+      "id": "14",
       "name": "Nodemailer",
       "logo": "/logos/nodemailer.webp",
       "link": "https://nodemailer.com/about/"
     },
     {
-      "id": "11",
+      "id": "15",
       "name": "Onesignal",
       "logo": "/logos/onesignal.webp",
       "link": "https://onesignal.com/"
     },
     {
-      "id": "12",
+      "id": "16",
       "name": "Authjs",
       "logo": "/logos/authjs.webp",
       "link": "https://authjs.dev/"
     },
     {
-      "id": "13",
+      "id": "17",
       "name": "Clerk",
       "logo": "/logos/clerk.webp",
       "link": "https://clerk.com/"
     },
     {
-      "id": "14",
+      "id": "18",
       "name": "V-Studio-Code",
       "logo": "/logos/visual.webp",
       "link": "https://vscode.dev/"
     },
     {
-      "id": "15",
+      "id": "19",
       "name": "ChatGpt",
       "logo": "/logos/ChatGPT.webp",
       "link": "https://openai.com/chatgpt"
     },
     {
-      "id": "16",
+      "id": "20",
       "name": "Llama2",
       "logo": "/logos/llama.webp",
       "link": "https://ai.meta.com/"
     },
+
     {
-      "id": "17",
-      "name": "Codefy",
-      "logo": "/logos/codefy.webp",
-      "link": "https://www.codefy.ai/"
-    },
-    {
-      "id": "18",
+      "id": "21",
       "name": "useLLM",
       "logo": "/logos/llm.webp",
       "link": "https://usellm.org/"
     },
     {
-      "id": "19",
+      "id": "22",
       "name": "VercelAI",
       "logo": "/logos/vercel.webp",
       "link": "https://sdk.vercel.ai/"
     },
     {
-      "id": "20",
+      "id": "23",
+      "name": "Codefy",
+      "logo": "/logos/codefy.webp",
+      "link": "https://www.codefy.ai/"
+    },
+    {
+      "id": "24",
+      "name": "Locofy",
+      "logo": "/logo.webp",
+      "link": "https://www.locofy.ai/"
+    },
+    {
+      "id": "25",
+      "name": "Heroicons",
+      "logo": "/logos/heroicons.webp",
+      "link": "https://heroicons.com/"
+    },
+    {
+      "id": "26",
+      "name": "Shadcn",
+      "logo": "/logos/shadcn.webp",
+      "link": "https://ui.shadcn.com/"
+    },
+    {
+      "id": "27",
+      "name": "Nextui",
+      "logo": "/logos/nextjs.webp",
+      "link": "https://nextui.org/"
+    },
+    {
+      "id": "28",
       "name": "Flowbite",
       "logo": "/logos/flowbite.webp",
       "link": "https://flowbite.com/docs/getting-started/quickstart/"
     },
     {
-      "id": "21",
+      "id": "29",
       "name": "HyperUI",
       "logo": "/logos/ui.webp",
       "link": "https://www.hyperui.dev/"
     },
     {
-      "id": "22",
+      "id": "30",
       "name": "Tailwind-Kit",
       "logo": "/logos/rocket.webp",
       "link": "https://www.tailwind-kit.com/started"
     },
     {
-      "id": "23",
-      "name": "Prismane",
-      "logo": "/logos/prismane.webp",
-      "link": "https://www.prismane.io/"
-    },
-    {
-      "id": "24",
-      "name": "Tailwindcss-animated",
+      "id": "31",
+      "name": "Uiverse",
       "logo": "/logos/tailwindcss.webp",
-      "link": "https://www.tailwindcss-animated.com/configurator.html"
+      "link": "https://uiverse.io/"
     },
     {
-      "id": "25",
+      "id": "32",
       "name": "Tailwindcss-elements",
       "logo": "/logos/tailwindcss.webp",
       "link": "https://tailwind-elements.com/"
     },
     {
-      "id": "26",
+      "id": "33",
+      "name": "Prismane",
+      "logo": "/logos/prismane.webp",
+      "link": "https://www.prismane.io/"
+    },
+    {
+      "id": "34",
       "name": "FramerMotion",
       "logo": "/logos/framer.webp",
       "link": "https://www.framer.com/motion/"
     },
     {
-      "id": "27",
+      "id": "35",
+      "name": "Cron",
+      "logo": "/logos/cron.webp",
+      "link": "https://www.npmjs.com/package/cron"
+    },
+    {
+      "id": "36",
       "name": "Squoosh",
       "logo": "/logos/squoosh.webp",
       "link": "https://squoosh.app/"
     },
     {
-      "id": "28",
+      "id": "37",
       "name": "Removebg",
       "logo": "/logos/remove.webp",
       "link": "https://www.remove.bg/es"
     },
     {
-      "id": "29",
-      "name": "Aspose",
-      "logo": "/logos/aspose.webp",
-      "link": "https://www.aspose.app/"
-    },
-    {
-      "id": "30",
+      "id": "38",
       "name": "Figma",
       "logo": "/logos/figma.webp",
       "link": "https://figma.app/"
     },
     {
-      "id": "31",
+      "id": "39",
       "name": "Drawio",
       "logo": "/logos/drawio.webp",
       "link": "https://app.diagrams.net/"
     },
     {
-      "id": "32",
-      "name": "FrontChecklist",
-      "logo": "/logos/front.webp",
-      "link": "https://frontendchecklist.io/"
+      "id": "40",
+      "name": "Mirrorfly",
+      "logo": "/logos/mirrorfly.webp",
+      "link": "https://www.mirrorfly.com/"
     },
     {
-      "id": "33",
+      "id": "41",
+      "name": "Internal",
+      "logo": "/logos/internal.webp",
+      "link": "https://www.internal.io/"
+    },
+    {
+      "id": "42",
+      "name": "Nodb",
+      "logo": "/logos/nodb.webp",
+      "link": "https://docs.nodb.sh/"
+    },
+    {
+      "id": "43",
+      "name": "Jsonbin",
+      "logo": "/logo.webp",
+      "link": "https://jsonbin.io/"
+    },
+    {
+      "id": "44",
+      "name": "Firecms",
+      "logo": "/logos/firecms.webp",
+      "link": "https://firecms.co/"
+    },
+    {
+      "id": "45",
+      "name": "Glide",
+      "logo": "/logos/glide.webp",
+      "link": "https://www.glideapps.com/"
+    },
+    {
+      "id": "46",
+      "name": "Alinea",
+      "logo": "/logos/alinea.webp",
+      "link": "https://alinea.sh/"
+    },
+    {
+      "id": "47",
+      "name": "Neon",
+      "logo": "/logos/neon.webp",
+      "link": "https://neon.tech/pricing"
+    },
+    {
+      "id": "48",
+      "name": "Upstash",
+      "logo": "/logos/upstash.webp",
+      "link": "https://upstash.com/"
+    },
+    {
+      "id": "49",
+      "name": "Mercadopago",
+      "logo": "/logos/mp.webp",
+      "link": "https://www.mercadopago.com.ar/developers/es/reference"
+    },
+    {
+      "id": "50",
       "name": "PageSpeed",
       "logo": "/logos/pagespeed.webp",
       "link": "https://pagespeed.web.dev/"
     },
     {
-      "id": "34",
-      "name": "Carbon",
-      "logo": "/logos/carbon.webp",
-      "link": "https://carbon.now.sh/"
+      "id": "51",
+      "name": "FrontChecklist",
+      "logo": "/logos/front.webp",
+      "link": "https://frontendchecklist.io/"
     },
     {
-      "id": "35",
-      "name": "Driverjs",
-      "logo": "/logos/driver.webp",
-      "link": "https://driverjs.com/"
+      "id": "52",
+      "name": "Minkit",
+      "logo": "/logos/minkit.webp",
+      "link": "https://minkit.io/"
     },
     {
-      "id": "36",
+      "id": "53",
       "name": "Uptimerobot",
       "logo": "/logos/uptimerobot.webp",
       "link": "https://uptimerobot.com/"
-    },
-    {
-      "id": "37",
-      "name": "designResources",
-      "logo": "/logos/github.webp",
-      "link": "https://github.com/bradtraversy/design-resources-for-developers/blob/master/readme.md#table-of-contents"
-    },
-    {
-      "id": "38",
-      "name": "AwesomeDesign",
-      "logo": "/logos/github.webp",
-      "link": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
     }
   ],
-  "others": [
+  "devs": [
     {
       "id": "0",
       "name": "DeveloperRoadmaps",
@@ -493,63 +621,117 @@
     },
     {
       "id": "3",
+      "name": "Carbon",
+      "logo": "/logos/carbon.webp",
+      "link": "https://carbon.now.sh/"
+    },
+    {
+      "id": "4",
+      "name": "Imagecarbon",
+      "logo": "/logos/imagecarbon.webp",
+      "link": "https://www.imagecarbon.com/"
+    },
+    {
+      "id": "5",
+      "name": "Driverjs",
+      "logo": "/logos/driver.webp",
+      "link": "https://driverjs.com/"
+    },
+    {
+      "id": "6",
+      "name": "httpcats",
+      "logo": "/logo.webp",
+      "link": "https://httpcats.com/"
+    },
+    {
+      "id": "7",
+      "name": "AddCalendar",
+      "logo": "/logos/add.webp",
+      "link": "https://add-to-calendar-button.com/"
+    },
+    {
+      "id": "8",
       "name": "Quicktype",
       "logo": "/logos/dev.webp",
       "link": "https://app.quicktype.io/"
     },
     {
-      "id": "4",
+      "id": "9",
       "name": "Recursos 🌈 CSS súper útiles",
       "logo": "/logos/css.webp",
       "link": "https://dev.to/lissy93/super-useful-css-resources-1ba3#animations"
     },
     {
-      "id": "5",
-      "name": "API web de JavaScript",
-      "logo": "/logos/javascrips.webp",
-      "link": "https://dev.to/ruppysuppy/7-javascript-web-apis-to-build-futuristic-websites-you-didnt-know-38bc"
-    },
-    {
-      "id": "6",
+      "id": "10",
       "name": "Css-houdini",
       "logo": "/logos/css.webp",
       "link": "https://css-houdini.rocks/"
     },
     {
-      "id": "7",
+      "id": "11",
       "name": "Animatopy",
       "logo": "/logos/css.webp",
       "link": "https://sarthology.github.io/Animatopy/"
     },
     {
-      "id": "8",
+      "id": "12",
       "name": "Animista",
       "logo": "/logos/css.webp",
       "link": "https://animista.net/play/"
     },
     {
-      "id": "9",
+      "id": "13",
       "name": "Atroposjs",
       "logo": "/logos/css.webp",
       "link": "https://atroposjs.com/"
     },
     {
-      "id": "10",
-      "name": "Librerias react",
-      "logo": "/logos/react.webp",
-      "link": "https://dev.to/madza/16-libraries-you-should-know-as-a-react-developer-4f1k/comments"
+      "id": "14",
+      "name": "Documenso",
+      "logo": "/logos/documenso.webp",
+      "link": "https://documenso.com/"
     },
     {
-      "id": "11",
+      "id": "15",
       "name": "PeopleDataLabsAPI",
       "logo": "/logo.webp",
       "link": "https://www.peopledatalabs.com/"
     },
     {
-      "id": "12",
-      "name": "Locofy",
-      "logo": "/loco.webp",
-      "link": "https://www.locofy.ai/"
+      "id": "16",
+      "name": "CustomGForm",
+      "logo": "/logos/custom.webp",
+      "link": "https://customgform.com/"
+    },
+    {
+      "id": "17",
+      "name": "Aspose",
+      "logo": "/logos/aspose.webp",
+      "link": "https://www.aspose.app/"
+    },
+    {
+      "id": "18",
+      "name": "DesignResources",
+      "logo": "/logos/github.webp",
+      "link": "https://github.com/bradtraversy/design-resources-for-developers/blob/master/readme.md#table-of-contents"
+    },
+    {
+      "id": "19",
+      "name": "AwesomeDesign",
+      "logo": "/logos/github.webp",
+      "link": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
+    },
+    {
+      "id": "20",
+      "name": "Librerias react",
+      "logo": "/logos/react.webp",
+      "link": "https://dev.to/madza/16-libraries-you-should-know-as-a-react-developer-4f1k"
+    },
+    {
+      "id": "21",
+      "name": "API web de JavaScript",
+      "logo": "/logos/javascript.webp",
+      "link": "https://dev.to/ruppysuppy/7-javascript-web-apis-to-build-futuristic-websites-you-didnt-know-38bc"
     }
   ]
 }
